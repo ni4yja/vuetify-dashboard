@@ -1,15 +1,17 @@
 <template>
-  <hello-world />
+  <v-app id="inspire">
+    <SideBar />
+  </v-app>
 </template>
 
 <script>
-import HelloWorld from "../components/HelloWorld";
+import SideBar from "../components/SideBar";
 
 export default {
   name: "Home",
 
   components: {
-    HelloWorld,
+    SideBar,
   },
 };
 </script>
